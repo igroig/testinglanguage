@@ -20,6 +20,13 @@ public class MainActivity extends AppCompatActivity {
                 LocaleHelper.setLocale(MainActivity.this, "ru");
             }
         });
+
+        findViewById(R.id.d).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LocaleHelper.setLocale(MainActivity.this, "en");
+            }
+        });
     }
 
     @Override
