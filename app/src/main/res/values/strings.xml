@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LanguageTest</string>
+    <string name="rus">default language</string>
+    <string name="adsad">rus</string>
+</resources>
